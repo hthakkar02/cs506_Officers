@@ -34,6 +34,12 @@ function MentorLogin() {
                   />
                 </Form.Group>
               </Form>
+              <Button
+                variant="primary"
+                onClick={() => console.log("form submitted")}
+              >
+                Login
+              </Button>{" "}
             </Col>
           </Row>
         </Container>
